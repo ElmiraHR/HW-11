@@ -1,0 +1,19 @@
+/* src/components/Home.module.css */
+.home {
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+
+.link {
+  color: rgb(153, 173, 252);
+  text-decoration: underline;
+}
