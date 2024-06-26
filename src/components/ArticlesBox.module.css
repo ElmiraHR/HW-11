@@ -1,0 +1,23 @@
+.ArticlesBox {
+    display: flex;
+    gap: 30px;
+    
+}
+.Box {
+    display: flex;
+    position: relative;
+    background-color: rgb(245, 243, 243);
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 2px 1px black;
+}
+.img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 45px;
+}

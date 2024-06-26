@@ -1,9 +1,25 @@
 /* src/components/Articles.module.css */
 .articles {
+ background: linear-gradient(#fff, rgb(134, 134, 134)) ;
+ min-height: 100vh;
   padding: 20px;
 }
 
 .link {
-  color: blue;
-  text-decoration: underline;
+  color: rgb(153, 173, 252);
+ 
+}
+.ul_box {
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  gap: 50px;
+}
+li {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(153, 173, 252);
+}
+li:hover {
+  transform: scale(0.8);
 }

@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Articles.module.css";
+import ArticlesBox from "./ArticlesBox";
 
 const articles = [
   { id: 1, title: "Flowers" },
@@ -10,10 +11,11 @@ const articles = [
   { id: 4, title: "City" },
 ];
 
-const Articles = () => (
-  <div className={styles.articles}>
+function Articles() {
+  return (
+    <div className={styles.articles}>
     <h1>Articles</h1>
-    <ul>
+    <ul className={styles.ul_box}>
       {articles.map((article) => (
         <li key={article.id}>
           <Link to={`/articles/${article.id}`} className={styles.link}>
@@ -22,7 +24,11 @@ const Articles = () => (
         </li>
       ))}
     </ul>
+    <ArticlesBox />
   </div>
-);
+  )
+};
+ 
+
 
 export default Articles;

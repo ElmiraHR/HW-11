@@ -1,6 +1,11 @@
 /* src/components/Article.module.css */
 .article {
   padding: 20px;
+  width: 60%;
+  margin: 30px auto;
+  background: linear-gradient(rgb(255, 255, 255),rgb(208, 208, 208));
+  box-shadow: 2px 2px 2px 2px black;
+
 }
 
 h1 {
@@ -35,4 +40,8 @@ p {
 
 .link:hover {
   text-decoration: underline;
+}
+img {
+ width: 25%;
+
 }
